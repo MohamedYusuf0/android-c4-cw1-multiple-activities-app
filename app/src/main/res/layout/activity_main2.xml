@@ -23,7 +23,7 @@
         android:layout_height="150dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="15dp"
-        app:srcCompat="@drawable/img" />
+        app:srcCompat="@drawable/d2" />
 
     <TextView
         android:id="@+id/PersonInfo"

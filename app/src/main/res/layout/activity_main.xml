@@ -17,14 +17,13 @@
         android:text="مجتمعاتنا"
         android:textSize="48sp" />
 
-
     <ImageView
         android:id="@+id/image1"
         android:layout_width="250dp"
         android:layout_height="150dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="15dp"
-        app:srcCompat="@drawable/img" />
+        app:srcCompat="@drawable/d2" />
 
     <TextView
         android:layout_width="wrap_content"

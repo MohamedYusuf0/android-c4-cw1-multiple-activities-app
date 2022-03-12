@@ -1,4 +1,4 @@
-package com.example.newproject;
+package com.example.com;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         Button button = findViewById(R.id.button);
         EditText Name = findViewById(R.id.Name);
         EditText Age = findViewById(R.id.Age);
@@ -26,15 +27,15 @@ public class MainActivity extends AppCompatActivity {
                     // Do Nothing
                 } else {
 
-                Intent I = new Intent(MainActivity.this,MainActivity2.class);
-                String PersonName = Name.getText().toString();
-                I.putExtra("Name" , PersonName);
-                String PersonAge = Age.getText().toString();
-                I.putExtra("Age" , PersonAge);
-                startActivity(I);
+                    Intent I = new Intent(MainActivity.this,MainActivity2.class);
+                    String PersonName = Name.getText().toString();
+                    I.putExtra("Name" , PersonName);
+                    String PersonAge = Age.getText().toString();
+                    I.putExtra("Age" , PersonAge);
+                    startActivity(I);
                 }
-        };
+            };
 
-    });
-}
+        });
+    }
 }
